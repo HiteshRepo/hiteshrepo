@@ -4,7 +4,7 @@
   <img align="left" alt="Hitesh Pattanayak | Twitter" width="21px" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg" />
 </a>
 <a href="https://www.linkedin.com/in/hitesh-pattanayak-52290b160/">
-  <img align="left" alt="Hitesh Pattanayak | linkedin" width="21px" src="https://github.com/HiteshRepo/hiteshrepo/blob/main/icons8-linkedin.svg"/>
+  <img align="left" alt="Hitesh Pattanayak | linkedin" width="21px" src="https://github.com/HiteshRepo/hiteshrepo/blob/main/linked-in.png"/>
 </a>
 
 <br />
