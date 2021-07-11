@@ -25,3 +25,7 @@ Hi, I'm Hitesh Pattanayak, 6 years of experience | Polyglot | Backend Developer 
 
 [![Hitesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hiteshrepo)](https://github.com/anuraghazra/github-readme-stats)
 
+[![Top Languages used](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=hiteshrepo&layout=compact&theme=material-palenight)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://hiteshportfolio.herokuapp.com/)
+
