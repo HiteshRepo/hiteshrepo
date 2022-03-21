@@ -10,10 +10,12 @@
 <br />
 <br />
 
-Hi, I'm Hitesh Pattanayak, 6 years of experience | Polyglot | Backend Developer | Front-end Enthusiast | Aspiring K8 cluster manager.
+Hi, I'm Hitesh Pattanayak, 6.5 years of experience | Polyglot | Backend Developer | K8 and AWS Practitioner | Finance Enthusiast.
 
-- 🔭 I’m currently working on GRPC-Golang to develop microservices deployed on k8 cluster + aws.
-- 🌱 I’m currently learning AWS and React.
+- 🔭 I’m currently working on GRPC-Golang to develop microservices deployed on k8 cluster + aws to build a backend for a crypto platform.
+- 🔭 I'm also working on monitoring those microservices and improve their efficiency.
+- 🌱 I’m currently learning and practicing Kubernetes and AWS.
+- In mylast project I worked on building no-code/low-code platform.
 
 **Languages and Tools:**  
 
