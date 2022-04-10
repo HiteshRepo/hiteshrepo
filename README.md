@@ -6,7 +6,9 @@
 <a href="https://www.linkedin.com/in/hitesh-pattanayak-52290b160/">
   <img align="left" alt="Hitesh Pattanayak | linkedin" width="21px" src="https://github.com/HiteshRepo/hiteshrepo/blob/main/linked-in.png"/>
 </a>
-
+<a href="https://hitesh-pattanayak.medium.com/">
+  <img align="left" alt="Hitesh Pattanayak | Medium" width="21px" src="https://github.com/HiteshRepo/hiteshrepo/blob/main/medium.jpeg"/>
+</a>
 <br />
 <br />
 
