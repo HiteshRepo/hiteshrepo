@@ -15,7 +15,7 @@
 Hi, I'm Hitesh Pattanayak, 6.5 years of experience | Polyglot | Backend Developer | K8 and AWS Practitioner | Finance Enthusiast.
 
 - 🔭 We currently working on GRPC-REST-Golang to develop microservices deployed on k8 cluster + aws to build a backend for a crypto platform.
-- 🔭 We are also working on monitoring those microservices and improve their efficiency uding Datadog's APM, logs, metrics and dashboards.
+- 🔭 We are also working on monitoring those microservices and improve their efficiency using Datadog's APM, logs, metrics and dashboards.
 - 🌱 We are also managing Kubernetes objects configurations and deploying them across environments.
 - 🌱 We are also Managing Event driven architecture using Kafka.
 - 🔭 We manage branching and semantic versioning using GitFlow.
