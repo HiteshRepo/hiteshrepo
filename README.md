@@ -37,3 +37,6 @@ Hi, I'm Hitesh Pattanayak, 6.5 years of experience | Polyglot | Backend Develope
 ![Hitesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hiteshrepo)
 
 ![Most Languages used](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=hiteshrepo&layout=compact)
+
+**Badges:**
+[![@hiteshrepo's Holopin board](https://holopin.io/api/user/board?user=hiteshrepo)](https://holopin.io/@hiteshrepo)
