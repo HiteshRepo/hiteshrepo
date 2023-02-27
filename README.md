@@ -40,4 +40,5 @@ Hi, I'm Hitesh Pattanayak, 6.5 years of experience | Polyglot | Backend Develope
 
 **Badges:**
 [![@hiteshrepo's Holopin board](https://holopin.io/api/user/board?user=hiteshrepo)](https://holopin.io/@hiteshrepo)
-[![@hiteshrepo's AWS Community Builder](https://github.com/HiteshRepo/hiteshrepo/blob/main/Community Builders badge 800px.png)](https://github.com/HiteshRepo/hiteshrepo/blob/main/Community Builders badge 800px.png)
+
+[![@hiteshrepo's AWS Community Builder](https://github.com/HiteshRepo/hiteshrepo/blob/main/Community_Builders_badge_800px.png)](https://github.com/HiteshRepo/hiteshrepo/blob/main/https://github.com/HiteshRepo/hiteshrepo/blob/main/Community_Builders_badge_800px.png)
