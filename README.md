@@ -34,15 +34,15 @@ In my last engagement (with Thoughtworks), I worked on below:
 - In one of my prior engagement (with Infosys) I worked on  maintaining ASP.NET web app using C#, SQL Server, IIS.
 
 **Few of my blogposts:**
-- ![gRPC concepts](https://www.infracloud.io/blogs/understanding-grpc-concepts-best-practices)
-- ![Multi-Tenant system design](https://medium.com/dev-genius/ticket-management-system-design-c32f948ce3c4)
-- ![Understanding taints and tolerations in K8s](https://medium.com/dev-genius/taints-tolerations-and-node-affinity-in-kubernetes-41d063157852)
-- ![Network policies in K8s](https://medium.com/dev-genius/network-policy-in-k8s-14eeeb905bb)
+- gRPC concepts: https://www.infracloud.io/blogs/understanding-grpc-concepts-best-practices
+- Multi-Tenant system design: https://medium.com/dev-genius/ticket-management-system-design-c32f948ce3c4
+- Understanding taints and tolerations in K8s: https://medium.com/dev-genius/taints-tolerations-and-node-affinity-in-kubernetes-41d063157852
+- Network policies in K8s: https://medium.com/dev-genius/network-policy-in-k8s-14eeeb905bb
 
 **Honors and Certifications**
-- ![AWS community builder](https://www.linkedin.com/feed/update/urn:li:activity:7036657859182346240)
-- ![KodeKloud CKAD certification](https://kodekloud.com/certificate-verification/7C93AD7ED0-7C9992E1F1-7C8D7A6E28)
-- ![Value ambassador award at Infracloud for March,2023](https://www.linkedin.com/feed/update/urn:li:activity:7044552619712815104)
+- AWS community builder: https://www.linkedin.com/feed/update/urn:li:activity:7036657859182346240
+- KodeKloud CKAD certification: https://kodekloud.com/certificate-verification/7C93AD7ED0-7C9992E1F1-7C8D7A6E28
+- Value ambassador award at Infracloud for March,2023: https://www.linkedin.com/feed/update/urn:li:activity:7044552619712815104
 - Hackathon winner at Sureify for creating a chatbot using Python, RASA framework and ML.
 - Star of the month for Backend at Sureify for month of Aug, 2021.
 - Rookie of the year at Cognizant in May, 2019.
