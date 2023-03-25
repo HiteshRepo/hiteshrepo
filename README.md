@@ -22,12 +22,12 @@ Current Project [Bare metal K8s cluster provisioning] with Infracloud Technologi
 - Various activities in pipeline: proxy support, private registry support.
 
 In my last engagement (with Thoughtworks), I worked on below:
-- 🔭 We currently working on GRPC-REST-Golang to develop microservices deployed on k8 cluster + aws to build a backend for a crypto platform.
-- 🔭 We are also working on monitoring those microservices and improve their efficiency using Datadog's APM, logs, metrics and dashboards.
-- 🌱 We are also managing Kubernetes objects configurations and deploying them across environments.
-- 🌱 We are also Managing Event driven architecture using Kafka.
-- 🔭 We manage branching and semantic versioning using GitFlow.
-- 🔭 We manage CI/CD pipeline using Github actions (runners) and ArgoCD.
+- 🔭 Worked on GRPC-REST-Golang to develop microservices deployed on k8 cluster + aws to build a backend for a crypto platform.
+- 🔭 Worked on monitoring those microservices and improve their efficiency using Datadog's APM, logs, metrics and dashboards.
+- 🌱 Managed Kubernetes objects configurations and deploying them across environments.
+- 🌱 Managed Event driven architecture using Kafka.
+- 🔭 Managed branching and semantic versioning using GitFlow.
+- 🔭 Managed CI/CD pipeline using Github actions (runners) and ArgoCD.
 
 - In one of my prior engagement (with Sureify) I worked on building no-code/low-code platform using Golang, Kubernetes, Postgres, Redis, RabbitMQ.
 - In one of my prior engagement (with Cognizant) I worked on automating redundant processes for a Banking Client using Python, Selenium, C#, MySQL.
