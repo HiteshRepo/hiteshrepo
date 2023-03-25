@@ -12,17 +12,41 @@
 <br />
 <br />
 
-Hi, I'm Hitesh Pattanayak, 6.5 years of experience | Polyglot | Backend Developer | K8 and AWS Practitioner | Finance Enthusiast.
+Hi, I'm Hitesh Pattanayak, 7 years of experience | Polyglot | Backend Developer | K8 and AWS Practitioner | Finance Enthusiast.
 
+Current Project [Bare metal K8s cluster provisioning] with Infracloud Technologies:
+- This project is to help users provision K8s cluster on bare metal with the help of EKSA (AWS EKS anywhere).
+- Also helps to do day-2 activities like: scaling control plane, scaling worker node groups, upgrade kubernetes version of the cluster.
+- EKSA internally uses tinkerbell (https://github.com/tinkerbell).
+- Provide APIs to perform CRUD ops on cluster as well as scale nodes and manage configurations.
+- Various activities in pipeline: proxy support, private registry support.
+
+In my last engagement (with Thoughtworks), I worked on below:
 - 🔭 We currently working on GRPC-REST-Golang to develop microservices deployed on k8 cluster + aws to build a backend for a crypto platform.
 - 🔭 We are also working on monitoring those microservices and improve their efficiency using Datadog's APM, logs, metrics and dashboards.
 - 🌱 We are also managing Kubernetes objects configurations and deploying them across environments.
 - 🌱 We are also Managing Event driven architecture using Kafka.
 - 🔭 We manage branching and semantic versioning using GitFlow.
 - 🔭 We manage CI/CD pipeline using Github actions (runners) and ArgoCD.
-- In my last engagement (with Sureify) I worked on building no-code/low-code platform using Golang, Kubernetes, Postgres, Redis, RabbitMQ.
-- In my prior engagement (with Cognizant) I worked on automating redundant processes for a Banking Client using Python, Selenium, C#, MySQL.
-- In my prior engagement (with Infosys) I worked on  maintaining ASP.NET web app using C#, SQL Server, IIS.
+
+- In one of my prior engagement (with Sureify) I worked on building no-code/low-code platform using Golang, Kubernetes, Postgres, Redis, RabbitMQ.
+- In one of my prior engagement (with Cognizant) I worked on automating redundant processes for a Banking Client using Python, Selenium, C#, MySQL.
+- In one of my prior engagement (with Infosys) I worked on  maintaining ASP.NET web app using C#, SQL Server, IIS.
+
+**Few of my blogposts:**
+- ![gRPC concepts](https://www.infracloud.io/blogs/understanding-grpc-concepts-best-practices)
+- ![Multi-Tenant system design](https://medium.com/dev-genius/ticket-management-system-design-c32f948ce3c4)
+- ![Understanding taints and tolerations in K8s](https://medium.com/dev-genius/taints-tolerations-and-node-affinity-in-kubernetes-41d063157852)
+- ![Network policies in K8s](https://medium.com/dev-genius/network-policy-in-k8s-14eeeb905bb)
+
+**Honors and Certifications**
+- ![AWS community builder](https://www.linkedin.com/feed/update/urn:li:activity:7036657859182346240)
+- ![KodeKloud CKAD certification](https://kodekloud.com/certificate-verification/7C93AD7ED0-7C9992E1F1-7C8D7A6E28)
+- ![Value ambassador award at Infracloud for March,2023](https://www.linkedin.com/feed/update/urn:li:activity:7044552619712815104)
+- Hackathon winner at Sureify for creating a chatbot using Python, RASA framework and ML.
+- Star of the month for Backend at Sureify for month of Aug, 2021.
+- Rookie of the year at Cognizant in May, 2019.
+- Spotlight award at Infosys in April, 2016.
 
 **Languages and Tools:**  
 
