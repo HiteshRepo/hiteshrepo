@@ -35,7 +35,7 @@ In my last engagement (with Thoughtworks), I worked on below:
 
 **Few of my blogposts:**
 - [gRPC concepts](https://www.infracloud.io/blogs/understanding-grpc-concepts-best-practices)
-- [Multi-Tenant system design}(https://medium.com/dev-genius/ticket-management-system-design-c32f948ce3c4)
+- [Multi-Tenant system design](https://medium.com/dev-genius/ticket-management-system-design-c32f948ce3c4)
 - [Understanding taints and tolerations in K8s](https://medium.com/dev-genius/taints-tolerations-and-node-affinity-in-kubernetes-41d063157852)
 - [Network policies in K8s](https://medium.com/dev-genius/network-policy-in-k8s-14eeeb905bb)
 
