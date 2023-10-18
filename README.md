@@ -46,8 +46,8 @@ In my last engagement (with Thoughtworks), I worked on below:
 - [Blog featured in kube-weekly](https://email.linuxfoundation.org/kubeweekly-332)
 - [Blog featured in LearnK8s LinkedIn pulse](https://www.linkedin.com/pulse/kubernetes-contributions-from-126-127-quality-of-service-memory/)
 - [AWS community builder](https://www.linkedin.com/feed/update/urn:li:activity:7036657859182346240)
-- [KodeKloud CKAD certification](ttps://kodekloud.com/certificate-verification/7C93AD7ED0-7C9992E1F1-7C8D7A6E28)
-- Value ambassador award at Infracloud for March,2023](https://www.linkedin.com/feed/update/urn:li:activity:7044552619712815104
+- [KodeKloud CKAD certification](https://kodekloud.com/certificate-verification/7C93AD7ED0-7C9992E1F1-7C8D7A6E28)
+- [Value ambassador award at Infracloud for March,2023](https://www.linkedin.com/feed/update/urn:li:activity:7044552619712815104)
 - Hackathon winner at Sureify for creating a chatbot using Python, RASA framework and ML.
 - Star of the month for Backend at Sureify for month of Aug, 2021.
 - Rookie of the year at Cognizant in May, 2019.
