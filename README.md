@@ -38,6 +38,7 @@ Project with Infosys:
 - [Network policies in K8s](https://medium.com/dev-genius/network-policy-in-k8s-14eeeb905bb)
 
 **Features, Honors and Certifications**
+- [Book on gRPC](https://www.amazon.in/Modern-API-Design-gRPC-Distributed/dp/8197081832)
 - [Certified CKAD from Linux Foundations](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0a7c5003-3e42-42e6-91b7-6746427872ee-hitesh-kumar-pattanayak-4f81e509-42d0-4205-a165-8fb54e333ac3-certificate.pdf)
 - [Flash talk at Gophercon 2023](https://www.youtube.com/watch?v=X8b-cxR-FxY&list=PLbgP71NCXCqGsqyEQt4op6MuQLvvKpuU7&index=19/)
 - [Virtual talk at AWS UG Bangalore](https://www.linkedin.com/feed/update/urn:li:activity:7078232488233373696/)
