@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 
 import anthropic
 import requests
+from openai import OpenAI
 
 BLOG_RSS = "https://hitesh-pattanayak.netlify.app/index.xml"
 README_PATH = "README.md"
@@ -29,36 +30,72 @@ def fetch_recent_posts() -> list[str]:
         return []
 
 
-def generate_thinking(posts: list[str]) -> str:
-    client = anthropic.Anthropic()
+PROMPT_SYSTEM = (
+    "You are Hitesh Pattanayak, a Senior Software Engineer working on "
+    "data pipelines, AI/LLM tools, Kubernetes, and cloud-native systems."
+)
 
+PROMPT_INSTRUCTION = (
+    "Write a single short paragraph (2-3 sentences) in first person about "
+    "what you are currently thinking about or exploring technically. "
+    "Be specific and concrete. No fluff, no intro phrases like 'Currently I am'."
+)
+
+
+def build_user_message(posts: list[str]) -> str:
     if posts:
         context = "Recent blog posts:\n" + "\n".join(f"- {p}" for p in posts)
     else:
         context = (
             "Tech focus: data pipelines, Kubernetes, gRPC, AI/LLM tooling, "
-            "Go, Python, Azure, Databricks, RAG, Anthropic API."
+            "Go, Python, Azure, Databricks, RAG, OpenAI and Anthropic APIs."
         )
+    return f"{context}\n\n{PROMPT_INSTRUCTION}"
 
+
+def generate_with_openai(user_message: str) -> str:
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        max_tokens=150,
+        messages=[
+            {"role": "system", "content": PROMPT_SYSTEM},
+            {"role": "user", "content": user_message},
+        ],
+    )
+    return response.choices[0].message.content.strip()
+
+
+def generate_with_anthropic(user_message: str) -> str:
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     message = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=150,
-        messages=[
-            {
-                "role": "user",
-                "content": (
-                    f"You are Hitesh Pattanayak, a Senior Software Engineer working on "
-                    f"data pipelines, AI/LLM tools, Kubernetes, and cloud-native systems.\n\n"
-                    f"{context}\n\n"
-                    f"Write a single short paragraph (2-3 sentences) in first person about "
-                    f"what you are currently thinking about or exploring technically. "
-                    f"Be specific and concrete. No fluff, no intro phrases like 'Currently I am'."
-                ),
-            }
-        ],
+        system=PROMPT_SYSTEM,
+        messages=[{"role": "user", "content": user_message}],
     )
-
     return message.content[0].text.strip()
+
+
+def generate_thinking(posts: list[str]) -> str:
+    user_message = build_user_message(posts)
+
+    if os.environ.get("OPENAI_API_KEY"):
+        try:
+            print("Generating with OpenAI...")
+            return generate_with_openai(user_message)
+        except Exception as e:
+            print(f"Warning: OpenAI failed: {e}", file=sys.stderr)
+
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        try:
+            print("Falling back to Anthropic...")
+            return generate_with_anthropic(user_message)
+        except Exception as e:
+            print(f"Warning: Anthropic failed: {e}", file=sys.stderr)
+
+    print("Error: no API key available or both providers failed.", file=sys.stderr)
+    sys.exit(1)
 
 
 def update_readme(thinking: str) -> None:
