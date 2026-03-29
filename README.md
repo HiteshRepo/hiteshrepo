@@ -17,11 +17,11 @@
 
 ### 🛠 Tech Stack
 
-**Languages**: Go · Python · TypeScript / Node.js · PySpark
-**Data Engineering**: Databricks · Apache Spark · Delta Lake · Azure Event Hubs
-**Cloud & Infra**: Kubernetes · Docker · Azure · AWS · Terraform · Pulumi
-**Databases**: CosmosDB · PostgreSQL · Elasticsearch · TimescaleDB
-**AI / LLM**: RAG pipelines · Azure OpenAI · Anthropic API · Vector Search
+**Languages**: Go · Python · TypeScript / Node.js · PySpark<br>
+**Data Engineering**: Databricks · Apache Spark · Delta Lake · Azure Event Hubs<br>
+**Cloud & Infra**: Kubernetes · Docker · Azure · AWS · Terraform · Pulumi<br>
+**Databases**: CosmosDB · PostgreSQL · Elasticsearch · TimescaleDB<br>
+**AI / LLM**: RAG pipelines · Azure OpenAI · Anthropic API · Vector Search<br>
 **Protocols & APIs**: gRPC · REST · GraphQL
 
 ---
