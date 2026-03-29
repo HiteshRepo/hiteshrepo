@@ -56,7 +56,7 @@
 
 My blog has a built-in AI chat assistant. Ask it about my posts, projects, or background — it retrieves relevant content and answers using GPT-4o-mini.
 
-👉 **[Chat at hitesh-pattanayak.netlify.app](https://hitesh-pattanayak.netlify.app)**
+👉 **[Chat at hiteshpattanayak.info](https://hiteshpattanayak.info)**
 
 ---
 

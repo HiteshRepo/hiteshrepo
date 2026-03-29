@@ -7,7 +7,7 @@ import anthropic
 import requests
 from openai import OpenAI
 
-BLOG_RSS = "https://hitesh-pattanayak.netlify.app/index.xml"
+BLOG_RSS = "https://hiteshpattanayak.info/index.xml"
 README_PATH = "README.md"
 MARKER_START = "<!-- THINKING_START -->"
 MARKER_END = "<!-- THINKING_END -->"
