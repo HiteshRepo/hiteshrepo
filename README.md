@@ -52,6 +52,24 @@
 
 ---
 
+### 💬 Try the AI Assistant
+
+My blog has a built-in AI chat assistant. Ask it about my posts, projects, or background — it retrieves relevant content and answers using GPT-4o-mini.
+
+👉 **[Chat at hitesh-pattanayak.netlify.app](https://hitesh-pattanayak.netlify.app)**
+
+---
+
+### 🧠 Currently Thinking About
+
+<!-- THINKING_START -->
+_Auto-updated weekly by Claude — check back soon._
+<!-- THINKING_END -->
+
+<sub>Powered by [Claude](https://anthropic.com) via scheduled GitHub Actions · [view workflow](.github/workflows/update-readme.yml)</sub>
+
+---
+
 ![Hitesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hiteshrepo&show_icons=true&theme=default)
 
 ![Most Used Languages](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=hiteshrepo&layout=compact)
