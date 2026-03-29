@@ -69,7 +69,3 @@ _Auto-updated weekly by Claude — check back soon._
 <sub>Powered by [Claude](https://anthropic.com) via scheduled GitHub Actions · [view workflow](.github/workflows/update-readme.yml)</sub>
 
 ---
-
-![Hitesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hiteshrepo&show_icons=true&theme=default)
-
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hiteshrepo&layout=compact)
