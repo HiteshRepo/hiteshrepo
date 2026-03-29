@@ -72,4 +72,4 @@ _Auto-updated weekly by Claude — check back soon._
 
 ![Hitesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hiteshrepo&show_icons=true&theme=default)
 
-![Most Used Languages](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=hiteshrepo&layout=compact)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hiteshrepo&layout=compact)
