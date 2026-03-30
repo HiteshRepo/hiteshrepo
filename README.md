@@ -63,7 +63,7 @@ My blog has a built-in AI chat assistant. Ask it about my posts, projects, or ba
 ### 🧠 Currently Thinking About
 
 <!-- THINKING_START -->
-_Auto-updated weekly by Claude — check back soon._
+I'm diving deep into optimizing Kubernetes orchestration for large-scale data pipelines, specifically focused on enhancing resource allocation and autoscaling mechanisms to efficiently handle petabyte-scale data processing. I'm also evaluating different strategies for integrating robust authentication and authorization models across cloud-native applications to ensure seamless user management while maintaining high security.
 <!-- THINKING_END -->
 
 <sub>Powered by [Claude](https://anthropic.com) via scheduled GitHub Actions · [view workflow](.github/workflows/update-readme.yml)</sub>
