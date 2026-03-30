@@ -63,7 +63,7 @@ My blog has a built-in AI chat assistant. Ask it about my posts, projects, or ba
 ### 🧠 Currently Thinking About
 
 <!-- THINKING_START -->
-I'm diving deep into optimizing Kubernetes orchestration for large-scale data pipelines, specifically focused on enhancing resource allocation and autoscaling mechanisms to efficiently handle petabyte-scale data processing. I'm also evaluating different strategies for integrating robust authentication and authorization models across cloud-native applications to ensure seamless user management while maintaining high security.
+I'm delving into optimizing RAG (Retrieval-Augmented Generation) pipelines by exploring advanced re-ranking techniques to improve the relevance of retrieved documents. Additionally, I’m experimenting with vector embeddings for semantic similarity to enhance the efficiency of information retrieval, particularly in the context of AI chat applications that require real-time context management. Implementing this within Kubernetes is key to ensuring scalability and resilience of the deployment.
 <!-- THINKING_END -->
 
 <sub>Powered by [Claude](https://anthropic.com) via scheduled GitHub Actions · [view workflow](.github/workflows/update-readme.yml)</sub>
