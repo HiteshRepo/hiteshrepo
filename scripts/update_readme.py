@@ -12,6 +12,8 @@ README_PATH = "README.md"
 MARKER_START = "<!-- THINKING_START -->"
 MARKER_END = "<!-- THINKING_END -->"
 MAX_POSTS = 5
+GITHUB_USERNAME = "hiteshrepo"
+MAX_COMMITS = 10
 
 
 def fetch_recent_posts() -> list[str]:
@@ -30,6 +32,35 @@ def fetch_recent_posts() -> list[str]:
         return []
 
 
+def fetch_recent_commits() -> list[str]:
+    try:
+        token = os.environ.get("GITHUB_TOKEN")
+        headers = {"Authorization": f"Bearer {token}"} if token else {}
+        response = requests.get(
+            f"https://api.github.com/users/{GITHUB_USERNAME}/events",
+            headers=headers,
+            timeout=10,
+        )
+        response.raise_for_status()
+        events = response.json()
+        commits = []
+        for event in events:
+            if event.get("type") != "PushEvent":
+                continue
+            repo = event.get("repo", {}).get("name", "")
+            for commit in event.get("payload", {}).get("commits", []):
+                message = commit.get("message", "").splitlines()[0]
+                if message.startswith("chore: auto-update"):
+                    continue
+                commits.append(f"{repo}: {message}")
+            if len(commits) >= MAX_COMMITS:
+                break
+        return commits[:MAX_COMMITS]
+    except Exception as e:
+        print(f"Warning: could not fetch GitHub commits: {e}", file=sys.stderr)
+        return []
+
+
 PROMPT_SYSTEM = (
     "You are Hitesh Pattanayak, a Senior Software Engineer working on "
     "data pipelines, AI/LLM tools, Kubernetes, and cloud-native systems."
@@ -42,15 +73,18 @@ PROMPT_INSTRUCTION = (
 )
 
 
-def build_user_message(posts: list[str]) -> str:
+def build_user_message(posts: list[str], commits: list[str]) -> str:
+    parts = []
     if posts:
-        context = "Recent blog posts:\n" + "\n".join(f"- {p}" for p in posts)
-    else:
-        context = (
+        parts.append("Recent blog posts:\n" + "\n".join(f"- {p}" for p in posts))
+    if commits:
+        parts.append("Recent GitHub commits:\n" + "\n".join(f"- {c}" for c in commits))
+    if not parts:
+        parts.append(
             "Tech focus: data pipelines, Kubernetes, gRPC, AI/LLM tooling, "
             "Go, Python, Azure, Databricks, RAG, OpenAI and Anthropic APIs."
         )
-    return f"{context}\n\n{PROMPT_INSTRUCTION}"
+    return "\n\n".join(parts) + f"\n\n{PROMPT_INSTRUCTION}"
 
 
 def generate_with_openai(user_message: str) -> str:
@@ -77,8 +111,8 @@ def generate_with_anthropic(user_message: str) -> str:
     return message.content[0].text.strip()
 
 
-def generate_thinking(posts: list[str]) -> str:
-    user_message = build_user_message(posts)
+def generate_thinking(posts: list[str], commits: list[str]) -> str:
+    user_message = build_user_message(posts, commits)
 
     if os.environ.get("OPENAI_API_KEY"):
         try:
@@ -123,6 +157,8 @@ def update_readme(thinking: str) -> None:
 if __name__ == "__main__":
     posts = fetch_recent_posts()
     print(f"Fetched {len(posts)} recent posts.")
-    thinking = generate_thinking(posts)
+    commits = fetch_recent_commits()
+    print(f"Fetched {len(commits)} recent commits.")
+    thinking = generate_thinking(posts, commits)
     print(f"Generated blurb:\n{thinking}")
     update_readme(thinking)
