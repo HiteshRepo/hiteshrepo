@@ -63,7 +63,7 @@ My blog has a built-in AI chat assistant. Ask it about my posts, projects, or ba
 ### 🧠 Currently Thinking About
 
 <!-- THINKING_START -->
-I'm delving into optimizing retrieval-augmented generation (RAG) architectures, particularly focusing on how to effectively leverage vector databases for enhanced performance in hybrid search scenarios. I'm also exploring advanced chunking techniques to balance the trade-off between context granularity and processing efficiency, which is crucial for maintaining relevance in AI chat applications. Integrating these methodologies with page-aware context retrieval to improve user interactions is a key area of interest right now.
+I'm diving into the intricacies of enhancing retrieval-augmented generation (RAG) systems by optimizing vector databases using approximate nearest neighbor (ANN) algorithms. My focus is on improving the efficiency of chunking strategies to better manage and retrieve relevant information swiftly within dynamic content contexts, particularly for AI chat assistants. Additionally, I'm exploring how to seamlessly integrate per-page context to enhance user interactions without the heavy lift of maintaining a full vector database.
 <!-- THINKING_END -->
 
 <sub>Powered by [Claude](https://anthropic.com) via scheduled GitHub Actions · [view workflow](.github/workflows/update-readme.yml)</sub>
