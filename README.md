@@ -63,7 +63,7 @@ My blog has a built-in AI chat assistant. Ask it about my posts, projects, or ba
 ### 🧠 Currently Thinking About
 
 <!-- THINKING_START -->
-I'm diving into the intricacies of enhancing retrieval-augmented generation (RAG) systems by optimizing vector databases using approximate nearest neighbor (ANN) algorithms. My focus is on improving the efficiency of chunking strategies to better manage and retrieve relevant information swiftly within dynamic content contexts, particularly for AI chat assistants. Additionally, I'm exploring how to seamlessly integrate per-page context to enhance user interactions without the heavy lift of maintaining a full vector database.
+I'm focusing on optimizing retrieval-augmented generation (RAG) models by integrating more sophisticated chunking strategies to improve context handling in large documents. This involves experimenting with vector embeddings to enhance similarity search performance in our vector database, aiming for faster retrieval times and more relevant responses in our AI chat assistant. Additionally, I'm exploring methods for grounding the outputs to ensure they align closely with the retrieved knowledge, which is critical for maintaining the accuracy and reliability of the generated answers.
 <!-- THINKING_END -->
 
 <sub>Powered by [Claude](https://anthropic.com) via scheduled GitHub Actions · [view workflow](.github/workflows/update-readme.yml)</sub>
