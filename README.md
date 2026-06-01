@@ -63,7 +63,7 @@ My blog has a built-in AI chat assistant. Ask it about my posts, projects, or ba
 ### 🧠 Currently Thinking About
 
 <!-- THINKING_START -->
-I'm diving deep into optimizing retrieval-augmented generation (RAG) architectures by focusing on the efficiency of vector embeddings and similarity search in hybrid systems. My goal is to enhance the performance of chatbot applications by leveraging effective chunking strategies within vector databases, ensuring rapid response times while maintaining high accuracy in user queries. Additionally, I'm experimenting with page-aware AI chat strategies to dynamically adjust context based on the content being viewed, which could significantly improve user experience on static blogs.
+I’m delving into the intricacies of designing efficient retrieval-augmented generation (RAG) systems, specifically focusing on optimizing vector embeddings and similarity calculations. I’m particularly interested in how to leverage vector databases for scalable, real-time data retrieval while integrating contextual awareness for AI chat applications, ensuring they can handle varied user interactions seamlessly. Exploring techniques to improve re-ranking algorithms is also on my radar, aiming to enhance the relevance of responses generated in chat interfaces.
 <!-- THINKING_END -->
 
 <sub>Powered by [Claude](https://anthropic.com) via scheduled GitHub Actions · [view workflow](.github/workflows/update-readme.yml)</sub>
