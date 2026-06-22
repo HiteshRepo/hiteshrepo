@@ -63,7 +63,7 @@ My blog has a built-in AI chat assistant. Ask it about my posts, projects, or ba
 ### 🧠 Currently Thinking About
 
 <!-- THINKING_START -->
-I'm exploring the integration of gRPC with Kubernetes to optimize data pipelines that leverage AI/LLM tooling, specifically using OpenAI and Anthropic APIs to enhance real-time data processing. Additionally, I'm experimenting with a RAG (Retrieval-Augmented Generation) architecture in Databricks to improve the contextual understanding of data queries in our cloud-native systems on Azure.
+I'm diving deep into optimizing data pipelines that leverage gRPC for efficient microservice communication, focusing on integrating Azure and Databricks for seamless data processing and analytics. Additionally, I'm exploring retrieval-augmented generation (RAG) techniques to enhance LLM capabilities using OpenAI and Anthropic APIs, which could significantly improve the accuracy of insights derived from large datasets in real-time applications.
 <!-- THINKING_END -->
 
 <sub>Powered by [Claude](https://anthropic.com) via scheduled GitHub Actions · [view workflow](.github/workflows/update-readme.yml)</sub>
