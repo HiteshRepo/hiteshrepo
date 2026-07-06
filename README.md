@@ -63,7 +63,7 @@ My blog has a built-in AI chat assistant. Ask it about my posts, projects, or ba
 ### 🧠 Currently Thinking About
 
 <!-- THINKING_START -->
-I'm diving deep into optimizing data pipelines using gRPC for efficient communication between microservices in a Kubernetes environment, particularly focusing on leveraging Azure's capabilities. Additionally, I'm experimenting with fine-tuning LLMs using RAG techniques to enhance their performance in real-time applications, utilizing both OpenAI and Anthropic APIs for comparative insights. Exploring the integration of Databricks for data processing and analysis further complements my exploration of building robust AI-driven tools.
+I'm exploring the integration of gRPC with Kubernetes to enhance the performance of real-time data pipelines while leveraging AI/LLM tools for smarter data processing. Specifically, I'm delving into how to optimize microservices communication for large-scale deployments on Azure and evaluating Databricks for handling batch processing workloads, considering the use of OpenAI and Anthropic APIs for improved data augmentation and retrieval-augmented generation (RAG) capabilities.
 <!-- THINKING_END -->
 
 <sub>Powered by [Claude](https://anthropic.com) via scheduled GitHub Actions · [view workflow](.github/workflows/update-readme.yml)</sub>
